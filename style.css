@@ -1,0 +1,21 @@
+/* Custom Styles for Link Buttons */
+.link-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(135deg, #df1b1b, #ba3030);
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.link-btn:hover {
+    transform: translateY(-5px);
+    background-color: #1e40af;
+}
+
+.link-btn:active {
+    transform: translateY(2px);
+}
