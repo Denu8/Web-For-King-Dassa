@@ -1,35 +1,69 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Login - Linktree Clone</title>
+
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body class="bg-gray-900 flex items-center justify-center min-h-screen">
+
     <!-- Login Form Container -->
+
     <div class="w-full max-w-sm bg-gray-800 p-6 rounded-lg shadow-lg">
+
         <h2 class="text-2xl text-white text-center mb-6 font-bold">🔒 Login</h2>
+
         
+
         <!-- Login Form -->
+
         <form id="loginForm" class="space-y-4">
+
             <div>
+
                 <label for="username" class="block text-gray-400">Username</label>
+
                 <input type="text" id="username" class="input-field" placeholder="Enter username" required>
+
             </div>
+
             <div>
+
                 <label for="password" class="block text-gray-400">Password</label>
+
                 <input type="password" id="password" class="input-field" placeholder="Enter password" required>
+
             </div>
+
             <button type="submit" class="w-full bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 rounded">
+
                 Login
+
             </button>
+
         </form>
 
+
+
         <p id="error" class="text-red-500 text-sm text-center mt-4 hidden">❌ Invalid username or password</p>
+
     </div>
 
+
+
     <script src="script.js"></script>
+
 </body>
-</html>
+
+    </html>
