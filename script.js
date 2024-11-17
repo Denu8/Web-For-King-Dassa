@@ -10,7 +10,7 @@ document.querySelectorAll('.link-btn').forEach(btn => {
 
 // Static credentials
 const validUsername = 'Devil_999';
-const validPassword = 'White_Devil@123';
+const validPassword = 'Devil@090';
 
 // Handle login form submission
 document.getElementById('loginForm')?.addEventListener('submit', (e) => {
